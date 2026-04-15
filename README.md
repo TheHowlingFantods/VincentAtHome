@@ -114,7 +114,10 @@ Remove `-DryRun` only when you intend to apply changes; the script will ask for 
 | `ai/ai.ps1` | Main harness |
 | `ai/ai-status.ps1` | Ollama reachability, `ollama list`, optional model warm-up |
 | `install/profile-snippet.ps1` | Example profile functions for `ai` and `aistatus` |
-| `social/` | Archived X.com and other social thread snapshots (Markdown) |
+
+### Local-only folder (not on GitHub)
+
+Create a **`social/`** folder next to `ai/` if you want Markdown snapshots of X.com or other threads. It is listed in **`.gitignore`**, so it stays on your machine and is **never committed or pushed** to the remote repository.
 
 ## Licence
 

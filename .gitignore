@@ -6,3 +6,6 @@ $RECYCLE.BIN/
 .vs/
 .idea/
 *.log
+
+# Local-only: social thread archives (never push to GitHub)
+social/
