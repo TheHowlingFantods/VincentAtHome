@@ -2,6 +2,10 @@
 
 Local Windows **PowerShell + Ollama** file-organiser harness (plain English in, validated moves out).
 
+<p align="center">
+  <img src="assets/vincent-at-home.png" alt="VincentAtHome — DIY robot mascot" width="420" />
+</p>
+
 Windows PowerShell scripts that pair plain-English prompts with a **local Ollama** model (for example **gemma4:e2b**) to plan folder tidy-up operations. The harness resolves paths, shows a snapshot, asks questions first, validates every action, supports **dry-run**, and only runs moves after you type **y**.
 
 ## Prerequisites
@@ -106,6 +110,7 @@ Remove `-DryRun` only when you intend to apply changes; the script will ask for 
 
 | Path | Purpose |
 |------|--------|
+| `assets/vincent-at-home.png` | README mascot image |
 | `ai/ai.ps1` | Main harness |
 | `ai/ai-status.ps1` | Ollama reachability, `ollama list`, optional model warm-up |
 | `install/profile-snippet.ps1` | Example profile functions for `ai` and `aistatus` |
